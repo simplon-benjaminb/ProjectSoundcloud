@@ -1,0 +1,46 @@
+body {
+    margin: 0; 
+}
+
+		/* Propriétés de la police du titre*/
+h2{
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	font-family: Lucida Grande;
+}
+h3{
+	font-family: Lucida Grande;
+	font-size: 20px;
+	text-align:center;
+		}
+	
+.button {
+    /*forme couleur et position du bouton*/
+	
+	position:relative;
+	text-align:center;
+	
+}	
+#create{
+	background-color: #f50;
+    color: #fff;
+	position:relative;
+	text-align:center;
+	border-radius: 3px;
+    box-sizing: border-box;
+	padding: 10px 15px;
+	height:40px;
+	font-size:16px;
+}
+p{
+	text-align: center;
+	display: block;
+}
+.sign-in {
+	background-color: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #333;
+}
