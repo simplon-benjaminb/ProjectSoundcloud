@@ -1,0 +1,73 @@
+.frontHero {
+    background-color: #666;
+    background-position: center center;
+    border-top: 4px solid #f50;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  margin-top: 20%;
+}
+
+.frontHero__logo {
+    background: rgba(0, 0, 0, 0) url("https://a-v2.sndcdn.com/assets/images/header/cloud-e365a4.png") no-repeat scroll 12px 11px / 48px 22px;
+    display: block;
+    height: 46px;
+    left: 20px;
+    position: absolute;
+    text-indent: -999em;
+    top: 10px;
+    width: 184px;
+}
+
+.frontHero__logo::after {
+    background: rgba(0, 0, 0, 0) url("https://a-v2.sndcdn.com/assets/images/header/wordmark-d95b0a.png") no-repeat scroll 60px 11px / 115px 22px;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+.frontHero__cta .loginButton {
+    margin-right: 1200px;
+    margin-bottom: :150px;
+}
+.g-opacity-transition {
+    transition: opacity 0.2s linear 0s;
+}
+.g-button-transparent-inverted, .g-button-transparent-inverted:visited {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #ccc;
+    color: #fff;
+}
+
+
+.g-opacity-transition{
+
+  margin-right: 1200px;
+  margin-bottom: :150px;
+
+}
+
+
+.frontHero__caption {
+    bottom: 10%;
+    color: #999;
+    opacity: 0.5;
+    position: absolute;
+    right: 30px;
+    transition: opacity 0.2s linear 0s;
+
+}
+
+.frontHero__actions{
+  margin-left: 35%;
+  font-size: 100%;
+}
